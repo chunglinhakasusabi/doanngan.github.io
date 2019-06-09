@@ -36,11 +36,11 @@ input[type="search-box"] {
 .dropbtn {
   background-color: #4296F7;
   color: white;
-  padding: 10px;
-  font-size: 15px;
+  padding: 12px;
+  font-size: 20px;
   border: none;
   cursor: pointer;
-  margin-top: 5px;
+  margin-top: 18px;
 }
 .dropbtn:hover, .dropbtn:focus {
   background-color: #4296F7;
@@ -121,116 +121,39 @@ img{
 	  
 </head>
 <body>
-	<input id="sizeall" type="hidden" value="${sizeall }">
-	<div id="header" class="border-top border-secondary">
-		<div>
-			<nav class="navbar navbar-default"
-				style="padding: 0px; margin: 0px; background: #4296F7">
-				<div class="container-fluid" style="margin-left: 10%">
-					<div class="navbar-header">
-						<a class="navbar-brand" href="index.html" style=" color: white;">NewsPageHANU</a>
-					</div>
-						<div class="nav navbar-nav">
-							<li><a href="#" style=" color: white;">CSS</a></li>
-							<li class="dropdown">
-  					<button onclick="myFunction()" class="dropbtn">HTML</button>
-  					<ul id="myDropdown" class="dropdown-content">
-    				<a href="">Wordpress</a>
-   					 <a href="">SEO</a>
-    				<a href="">Hosting</a>
-    				</ul>
-  					</li>
-							<li><a href="about.html" style=" color: chartreuse;">About us</a></li>
-							<li><a href="lienhe.html" style=" color: white;">Liên hệ</a></li>
-						</div>
-						<div class="search-container" style="float: right;">
-    <form>
+  <input id="sizeall" type="hidden" value="${sizeall }">
+  <div id="header" class="border-top border-secondary">
+    <div>
+      <nav class="navbar navbar-default"
+        style="padding: 0px; margin: 0px; background: #4296F7">
+        <div class="container-fluid" style="margin-left: 20px;">
+          <div class="navbar-header">
+            <a class="navbar-brand" href='<c:url value="/homepage"/>' style=" color: white; font-size: 30px; margin-top: 20px; margin-right: 40px; margin-left:10px;"
+            >NewsPageHANU</a>
+          </div>
+            <div class="nav navbar-nav">
+              <li><a href="#" style=" color: white; font-size: 20px; margin-top: 20px;">CSS</a></li>
+              <li class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">HTML</button>
+            <ul id="myDropdown" class="dropdown-content">
+            <a href="">Wordpress</a>
+             <a href="">SEO</a>
+            <a href="">Hosting</a>
+            </ul>
+            </li>
+              <li><a href="#" style=" color: white;font-size: 20px;margin-top: 20px;">Hỏi đáp</a></li>
+              <li><a href="#" style=" color: chartreuse;font-size: 20px;margin-top: 20px;">Liên hệ</a></li>
+            </div>
+            <div class="search-container" style="float: right;">
+    <form action="/action_page.php">
       <input type="search-box" name="search" placeholder="Search">
      <button class="button" type="submit"><i class="fa fa-search"></i></button>
   </form>
-  <ul class="login-logout">
-  	<a href="dangnhap.html" style="color: white;">Đăng nhập</a>
-  	     <a href="dangky.html" style="color: white;">Đăng ký</a>
+  <ul class="login-logout" style=" font-size:15px;">
+    <a href="dangnhap.html" style="color: white;">Đăng nhập</a>
+         <a href="dangky.html" style="color: white;">Đăng ký</a>
   </ul>
 </div>
   </nav>
   <br>
-  <div class= "content">
-    <div class="text">
-      <h1 style="text-align:center;"> VỀ BLOG  </h1><br>
-     <p> <img alt="" src="images/a12.jpg" style="width:500px;height:300px;margin-right:15px;">
-     
-        Chúng tôi đặt tên blog là “NewsPageHANU”.<br><br>
-
-Đây là một blog về IT. Nội dung blog một nửa là về kĩ thuật lập trình, một nửa còn lại là những kinh nghiệm chúng tôi học được: Cách deal lương, sắp xếp thời gian, kĩ năng mềm, ngôn ngữ nên học, con đường phát triển nghề nghiệp… Đó là những điều quan trọng không thua gì kĩ năng lập trình.<br><br>
-
-Phương châm của blog là: Developer cần biết nhiều điều hơn ngoài code, blog sẽ vừa dạy bạn code, vừa dạy bạn những điều còn lại.<br><br>
-
-Chúng tôi viết blog này với mục đích nâng cao khả năng diễn dạt, trình bày vấn đề, cũng như chia sẻ kinh nghiệm và kiến thức cho mọi người. Mọi comment góp ý hay ném đá, miễn là ko mang tính xúc phạm, đều được hoan nghênh.
-      </p>
-      
-</div>
-<br />
-
-  
-</div>
-<div class="clearfix"></div><br><br><br><br><br><br><br><br><br>
-
-<footer>
-    <div style="background: black;
- right: 0; left: 0;
-  bottom: 0;">
-    <div style="width: 25%; float:left;background: black;">
-    
-    <ul class="" style="list-style-type: none;">
-      <li style="color: white; margin-top: 15px">THÔNG TIN</li>
-      <li><a style="text-decoration: none; color: darkgray;" href="#">Giới thiệu</a></li>
-      <li><a style="text-decoration: none;color: darkgray;" href="#">Chính sách
-          bảo mật</a></li>
-    </ul>
-  </div>
-  <div style="width: 25%; float: right;background: black;">
-    <ul class="" style="list-style-type: none;">
-      <li style="color: white; margin-top: 15px">LIÊN KẾT</li>
-      <li><a style="text-decoration: none; color: darkgray;" href="#">FB: </a></li>
-      <li><a style="text-decoration: none; color: darkgray;" href="#">Email:</a></li>
-    </ul>
-  </div>
-  <div style="width: 25%; float: right;background: black;">
-    <ul class="" style="list-style-type: none;">
-      <li style="color: white;margin-top: 15px ">ĐỊA CHỈ</li>
-      <li><a style="text-decoration: none;color: darkgray;" href="#">Địa chỉ1: Hà Nội </a></li>
-      <li><a style="text-decoration: none;color: darkgray;" href="#">Địa chỉ2: Vĩnh Phúc </a></li>
-    </ul>
-  </div>
-  <div style="width: 25%; float: right;background: black;">
-    <ul class="" style="list-style-type: none;">
-    <li style="color: white; margin-top: 15px ;">LIÊN HỆ</li>
-      <li><a style="text-decoration: none;color: darkgray;" href="#"><span class="glyphicon glyphicon-earphone"></span> 0352428800</a></li>
-      <li><a style="text-decoration: none;color: darkgray;" href="#"> <span class="glyphicon glyphicon-envelope"></span> doanngan2108@gmail.com</a></li>
-    </ul>
-  </div>
-</div>
-  </footer>
-
-
-
-  <script type="text/javascript">
-    function myFunction() {
-  document.getElementById("myDropdown").classList.toggle("show");
-}
-// Close the dropdown if the user clicks outside of it
-window.onclick = function(event) {
-  if (!event.target.matches('.dropbtn')) {
-    var dropdowns = document.getElementsByClassName("dropdown-content");
-    var i;
-    for (i = 0; i < dropdowns.length; i++) {
-      var openDropdown = dropdowns[i];
-      if (openDropdown.classList.contains('show')) {
-        openDropdown.classList.remove('show');
-      }
-    }
-  }
-};
-  </script>
   
